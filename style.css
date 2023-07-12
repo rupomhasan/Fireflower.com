@@ -122,12 +122,14 @@
   margin: 50px 220px 120px 220px;
 }
 #Form {
-  background: url('../Flower Asset/Rectangle 9.png');
+  background: url('Rectangle 9.png');
   background-repeat: no-repeat;
   margin: 120px 220px;
+  width: 100%vh;
   height: 400px;
   display: flex;
   flex-direction: column;
+  background-position: center;
   justify-content: space-around;
 }
 form,
