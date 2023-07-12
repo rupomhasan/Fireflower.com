@@ -242,6 +242,31 @@
       color: rgb(232, 230, 230, 0.85);
       font-size: 24px;
     }
+
+    .second-nav {
+      height: 170px;
+      background-color: rgb(178, 82, 244, 0.7);
+    }
+
+    .nav-item {
+      display: flex;
+      justify-content: center;
+      padding: 70px
+    }
+
+    .nav-item li {
+      list-style: none;
+      padding: 0px 35px;
+      font-size: 35px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .nav-item li:hover {
+      font-weight: bolder;
+      color: blue;
+      transition: 0.8s;
+    }
   </style>
 </head>
 
@@ -250,6 +275,14 @@
     <nav>
       <div class="first-nav">
         <p class="nav-pra">Hi! Welcome to Flower of The World</p>
+      </div>
+      <div class="second-nav">
+        <ul class="nav-item">
+          <li>HOME</li>
+          <li>ORDER FLOWERS</li>
+          <li>SHOP</li>
+          <li>EVENTS</li>
+        </ul>
       </div>
     </nav>
     <section class="section-top">
